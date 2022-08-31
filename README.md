@@ -138,4 +138,3 @@ The keyboard typed: Hello World!
 0
 
 ```
-
