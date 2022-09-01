@@ -5,9 +5,9 @@ public class ComputerDriver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Computer computer = new Computer();
-        printMenu();
         int userSelection = -1;
         do {
+            printMenu();
             try {
                 userSelection = scanner.nextInt();
                 switch (userSelection) {

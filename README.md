@@ -58,9 +58,9 @@ public class ComputerDriver {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     Computer computer = new Computer();
-    printMenu();
     int userSelection = -1;
     do {
+      printMenu();
       try {
         userSelection = scanner.nextInt();
         switch (userSelection) {
@@ -124,16 +124,44 @@ What would you like the computer to do?
 1
 The mouse left-clicked to select!
 
+What would you like the computer to do?
+0.    Exit
+1.    Left-Click to Select
+2.    Right-Click to Copy
+3.    Right-Click to Paste
+4.    Type
+
 2
 The mouse right-clicked to copy!
 
+What would you like the computer to do?
+0.    Exit
+1.    Left-Click to Select
+2.    Right-Click to Copy
+3.    Right-Click to Paste
+4.    Type
+
 3
 The mouse right-clicked to paste!
+
+What would you like the computer to do?
+0.    Exit
+1.    Left-Click to Select
+2.    Right-Click to Copy
+3.    Right-Click to Paste
+4.    Type
 
 4
 Enter a message to type:
 Hello World!
 The keyboard typed: Hello World!
+
+What would you like the computer to do?
+0.    Exit
+1.    Left-Click to Select
+2.    Right-Click to Copy
+3.    Right-Click to Paste
+4.    Type
 
 0
 
